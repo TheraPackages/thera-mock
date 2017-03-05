@@ -1,0 +1,31 @@
+{
+  "name": "thera-mock",
+  "version": "0.1.1",
+  "description": "mock data on the run",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TheraPackages/thera-mock.git"
+  },
+  "keywords": [
+    "thera",
+    "mock"
+  ],
+  "author": "NickolasHu",
+  "license": "MIT",
+  "activationCommands": {
+    "atom-workspace": "weex-run:ws-connected"
+  },
+  "dependencies": {
+    "fs-promise": "~1.0.0",
+    "standard": "~8.6.0"
+  },
+  "standard": {
+    "globals": [
+      "atom"
+    ]
+  }
+}
