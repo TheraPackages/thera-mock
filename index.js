@@ -9,7 +9,7 @@ const WS_CONNECTED = 'weex-run:ws-connected'
 const WS_DISCONNECTED = 'weex-run:ws-disconnected'
 // const WS_SEND_MSG = 'weex-run:ws-send-msg'
 const HTTP_SEND_MSG = 'weex-run:http-send-msg'
-const MOCK_DATA_URL = 'http://localhost:PORT/mockConfig'
+const MOCK_DATA_URL = 'http://localhost:PORT/theraConfig'
 
 module.exports = (function () {
   var lanuchConfigPath
