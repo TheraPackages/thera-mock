@@ -1,6 +1,6 @@
 {
   "name": "thera-mock",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "mock data on the run",
   "main": "index.js",
   "scripts": {
